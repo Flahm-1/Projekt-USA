@@ -1,7 +1,10 @@
 import streamlit as st
 import streamlit_echarts as st_echarts
 import matplotlib.pyplot as plt
+import os
 
+Fabian = os.sys("ls")
+st.write(Fabian)
 
 st.set_page_config(
     page_title="Heated Apparel Dashboard",
